@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    width: 100%;
+    font-family: Questrial, sans-serif;
+    font-weight: 400;
+    background: rgb(245, 245, 237);
+        
+}
+
+.container-bg {
+    background: rgb(245, 245, 237);
+}
+
+
+.font-heading {
+    font-family: Lato, sans-serif;
+}
+
+.font-body {
+    font-family: "SuisseIntl", "Helvetica Neue", "Helvetica", Arial;
+}
+
+.jbw-san-serif-font {
+    font-family: SuisseIntl, Helvetica Neue, Helvetica, Arial;
+}
+
+.jbw-serif-font {
+    font-family: TiemposFine;
+}
+
+.jbw-serif-font2 {
+    font-family: TiemposFine, SuisseIntl, Helvetica Neue, Helvetica, Arial;
+}
+
+.jbw-font-color {
+    color: #4b5563;
+}
+
+
+.footer-bg-color {
+    background-color: black;
+}   
+
+.footer-bg-color-darker {
+    background-color: #d6d3cb;
+}
+
